@@ -2,7 +2,6 @@
 
 Public Class MvcApplication
     Inherits System.Web.HttpApplication
-
     Protected Sub Application_Start()
         AreaRegistration.RegisterAllAreas()
         FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters)
